@@ -1,0 +1,125 @@
+{
+  "brand_identity": {
+    "name": "Zenkai Matcha",
+    "core_values": ["Ritual", "Clarity", "Longevity", "Serenity"],
+    "archetype": "The Organic Sage",
+    "visual_direction": "Aesop-style Luxury meets Japanese Minimalism"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Playfair Display, serif",
+      "weights": ["400", "600"],
+      "usage": "All section titles, hero statements, and product names. Use tracking-tight (-0.02em) for a more editorial look.",
+      "sizes": {
+        "h1": "text-5xl md:text-7xl",
+        "h2": "text-4xl md:text-5xl",
+        "h3": "text-2xl md:text-3xl"
+      }
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["300", "400", "500"],
+      "usage": "Product descriptions, navigation, buttons, and blog content. High readability.",
+      "sizes": {
+        "base": "text-base md:text-lg",
+        "small": "text-sm tracking-wide"
+      }
+    }
+  },
+  "colors": {
+    "theme": "light",
+    "palette": {
+      "background": {
+        "primary": "#F9F8F6",
+        "secondary": "#F0EFEA",
+        "surface": "#FFFFFF"
+      },
+      "text": {
+        "primary": "#1A1A1A",
+        "secondary": "#595959",
+        "muted": "#8C8C8C"
+      },
+      "brand": {
+        "primary": "#5C7C3E",
+        "secondary": "#8A9F70",
+        "dark": "#3A4F26"
+      },
+      "accent": {
+        "terracotta": "#BC6C25",
+        "sand": "#D4A373"
+      },
+      "border": {
+        "default": "#E5E5E5",
+        "subtle": "#F0F0F0"
+      }
+    },
+    "gradients": "NONE. Use flat colors or subtle noise textures."
+  },
+  "layout_strategy": {
+    "grid_system": "The 'Aesop' Split",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-24 md:py-32",
+    "alignment": "Asymmetric. Balance heavy text blocks with negative space.",
+    "border_radius": "rounded-none (sharp) for images, rounded-full for buttons."
+  },
+  "component_guidelines": {
+    "buttons": {
+      "primary": "bg-[#1A1A1A] text-white hover:bg-[#5C7C3E] rounded-full px-8 py-4 transition-all duration-500 ease-out text-sm uppercase tracking-widest",
+      "secondary": "border border-[#1A1A1A] text-[#1A1A1A] hover:bg-[#1A1A1A] hover:text-white rounded-full px-8 py-4 transition-all duration-300",
+      "tertiary": "text-[#1A1A1A] border-b border-[#1A1A1A] pb-1 hover:border-transparent transition-all"
+    },
+    "cards": {
+      "style": "Flat, no shadow by default. 1px solid border in neutral grey (#E5E5E5).",
+      "hover": "Subtle darkening of border or image zoom."
+    },
+    "inputs": {
+      "style": "bg-transparent border-b border-[#1A1A1A] rounded-none px-0 py-4 focus:ring-0 focus:border-[#5C7C3E] placeholder:text-gray-400"
+    }
+  },
+  "visual_enhancers": {
+    "texture": "Add a subtle noise/grain overlay (opacity 0.03) to the entire body to mimic paper.",
+    "parallax": "Use Lenis for smooth scrolling. Parallax effect on hero images.",
+    "micro_interactions": "Slow fade-ins (duration-700) for all elements as they enter viewport."
+  },
+  "image_assets": {
+    "hero_section": {
+      "url": "https://images.unsplash.com/photo-1766485586335-b3ecea463aa6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHxncmVlbiUyMHRlYSUyMHBsYW50YXRpb24lMjBmb2d8ZW58MHx8fHwxNzcxMDY3MjM3fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Misty tea plantation in Uji",
+      "usage": "Full width hero background or split screen hero."
+    },
+    "product_ceremonial": {
+      "url": "https://images.unsplash.com/photo-1753009712870-a40156af0b6d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwyfHxjZXJlbW9uaWFsJTIwbWF0Y2hhJTIwcG93ZGVyJTIwYm93bCUyMHdoaXNrfGVufDB8fHx8MTc3MTA2NzIyNXww&ixlib=rb-4.1.0&q=85",
+      "alt": "Ceremonial matcha powder and whisk",
+      "usage": "Featured product image."
+    },
+    "lifestyle_drinking": {
+      "url": "https://images.unsplash.com/photo-1697914584292-9ffae541f5ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwzfHx3b21hbiUyMGRyaW5raW5nJTIwbWF0Y2hhJTIwbGF0dGUlMjBtaW5pbWFsaXN0JTIwYWVzdGhldGljfGVufDB8fHx8MTc3MTA2NzIyNnww&ixlib=rb-4.1.0&q=85",
+      "alt": "Woman enjoying matcha",
+      "usage": "About section or benefits section."
+    },
+    "preparation_ritual": {
+      "url": "https://images.unsplash.com/photo-1753009712810-3f72c3f72548?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxjZXJlbW9uaWFsJTIwbWF0Y2hhJTIwcG93ZGVyJTIwYm93bCUyMHdoaXNrfGVufDB8fHx8MTc3MTA2NzIyNXww&ixlib=rb-4.1.0&q=85",
+      "alt": "Whisking matcha",
+      "usage": "How-to/Brewing guide section."
+    },
+    "zen_aesthetic": {
+      "url": "https://images.unsplash.com/photo-1770178995778-c6341164de63?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwxfHxqYXBhbmVzZSUyMHplbiUyMGdhcmRlbiUyMHN0b25lJTIwbWluaW1hbGlzbXxlbnwwfHx8fDE3NzEwNjcyMzl8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Zen stone water basin",
+      "usage": "Atmospheric filler or footer background."
+    }
+  },
+  "instructions_to_main_agent": [
+    "INSTALL FONTS: Import 'Playfair Display' and 'Manrope' from Google Fonts immediately.",
+    "NOISE OVERLAY: Create a fixed position div with a noise svg pattern and pointer-events-none to give the texture.",
+    "NAVIGATION: Create a floating minimalist navbar. Glassmorphism is allowed but keep it subtle (blur-md).",
+    "PRODUCT CARDS: Do not use shadows. Use white space and 1px borders. Images should be aspect-square or 4:5 ratio.",
+    "CTA STRATEGY: Primary buttons should be 'Add to Cart' or 'Shop Now'. Secondary actions should be text links with underlines.",
+    "MOBILE FIRST: Ensure the split-screen layouts stack vertically on mobile with the image on top.",
+    "DATA-TESTID: Add data-testid to all interactive elements (buttons, inputs, links)."
+  ],
+  "universal_guidelines": {
+    "spacing": "Use 2x more padding than you think is necessary. Space = Luxury.",
+    "dark_mode": "Disable automatic dark mode. Enforce the Light/Nature theme for brand consistency.",
+    "animations": "Use framer-motion for all enter animations. Stagger children elements."
+  }
+}
